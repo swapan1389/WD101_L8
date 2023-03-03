@@ -1,0 +1,49 @@
+* {
+    padding: 1;
+    font-family: 'Times New Roman', 'Arial Narrow', Times, serif;
+    margin: 0;
+    color: rgb(240, 29, 29);
+    box-sizing: border-box;
+    border-width: 5px;
+    border-collapse: collapse;
+    border-color: rgb(226, 27, 27);
+  }
+  .c {
+    justify-content: center;
+    display: flex;
+    margin-top: 4rem;
+    align-items: center;
+  }
+  body {
+    margin-top: 10%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-color: rgba(53, 251, 13, 0.333);
+    background-size: cover;
+    background-image: url("https://media.istockphoto.com/id/466240080/photo/victoria-memorial-landmark-in-calcutta-india.jpg?s=2048x2048&w=is&k=20&c=_poTav7MGftnGRWA9O920b-6bbW7HsKROPEjum5b6Cg=");
+  }
+  .d{
+    background-color:#1a0ff0;
+    width: 100px;
+    height: 25px;
+    border-radius: 0px;
+  }
+  .form {
+    display: flex;
+    background-color: rgb(78, 11, 247);
+    align-items: center;
+    height: 900px;
+    flex-direction: column;
+    width: 850px;
+    border-radius: 35px;
+    box-shadow: 2px 4px 10px rgb(245, 9, 36);
+    margin-right: 230px;
+  }
+  .entry_b{
+    border-color:  rgb(119, 5, 233);
+    padding : 20px;
+    border-radius: 25px;
+    margin-left: 250px;
+    border-collapse: collapse;
+    border: solid;
+  }

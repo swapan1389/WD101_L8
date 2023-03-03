@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Registration Form With Validation</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="c">
+        <form id="F_dt" style=" padding: 40px;  border: seagreen; border-radius: 10px;" method="POST">
+            <label for="nm">Name: </label>
+            <input required type="text" id="nm" name="nm" style="color: rgb(134, 18, 236)" >
+            <br><br>
+            <label for="email">Email: </label>
+            <input required type="email" id="email" name="email" style="color: rgb(25, 247, 125)" >
+            <br><br>
+            <label for="pwd">Password: </label>
+            <input  type="password" id="pwd" name="pwd" style="color: rgb(248, 150, 13)" required >
+            <br><br>
+            <label for="db">Date of Birth: </label>
+            <input type="date" id="db" name="db" style="color: rgb(86, 9, 230)" required>
+            <br><br>
+            <input type="checkbox" id="aptTrm" name="aptTrm">
+            <label for="aptTrm">Accept Terms & Conditions</label>
+            <br><br>
+            <button  type="submit" class="d" ><h3>Submit</h3></button>
+            <br><br>
+        </form>
+        <div class="entry_b" style="border-color:rgb(59, 250, 6)">
+            <h2 style="text-align:center;">Your provided details</h2>
+            <br>
+            <div id="en"></div>
+           </div>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>
